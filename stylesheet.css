@@ -1,0 +1,48 @@
+body {
+    background-image: url('img/Background.jpg');
+    background-size: cover;
+}
+
+h3 {
+    margin-left: 100px;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+
+tbody {
+    font-size: 20px;
+    font-weight: 300;
+    color:white;
+}
+      
+.kartu {
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    transition: all .3s;
+    background-color: #D11C1C;
+    border: solid 8px #FF2626;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    opacity: 0.9;
+}
+
+.kartu:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;    
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.foto {
+    padding: 50px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.biodata {
+    margin-top: 90px;
+}
